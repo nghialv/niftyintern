@@ -3,6 +3,8 @@
 
   global $db;
 
+  session_start();
+
   $code = $_REQUEST['code'];
   $token_url = 'https://graph.facebook.com/oauth/access_token?client_id='.
     APP_ID . '&redirect_uri=' . urlencode(CALLBACK) . '&client_secret='.
@@ -21,8 +23,9 @@
   $result = $db->query("SELECT * FROM user  WHERE fb_uid=$fb_uid");
 
   if($result->rowCount() != 0){
-    echo "Already exits";
-
+    session_regenerate_id(TRUE);
+    $_SESSION["USERID"] = $fb_uid;
+    header("Location: main.php");
   }
   else
   {
