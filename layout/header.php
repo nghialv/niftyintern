@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Nifty intern</title>
+  <link rel='stylesheet' type='text/css' href='css/common/body.css'/>
 </head>
 
 <body>
