@@ -1,5 +1,5 @@
 <?php
-  require_one 'common.php';
+  require_once 'common.php';
 
   global $db;
 
