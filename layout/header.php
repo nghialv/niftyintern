@@ -16,7 +16,7 @@
       <div id="menu">
         <div class="menu-left">
           <div id="header-search-form">
-            < form id="header-search-form-remote" action="" data-remote="true" method="post">
+            <form accept-charset="UTF-8" id="header-search-form-remote" action="search.php" data-remote="true" method="post">
               <input type="text" id="header-search" name="search" placeholder="Search">
             </form>
             <ul>
@@ -26,12 +26,12 @@
             <ul class="menu" id="menu-left">
               <li class="ranking" id="header-ranking-button">
                 <span class="separator">
-                  <span>Ranking</span>
+                  <span>ABC</span>
                 </span>
               </li>
               <li class="category" id="header-category-button">
                 <span class="separator">
-                  <span>Category</span>
+                  <span>XYZ</span>
                 </span>
               </li>
             </ul>

@@ -1,6 +1,6 @@
 <?php
   require_once 'common.php';
-  require_once '/layout/header.php';
+  require_once 'layout/header.php';
 ?>
 
 <div id="container">
