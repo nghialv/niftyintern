@@ -1,12 +1,16 @@
 <?php
-  echo "hello world";
+  require_one 'common.php';
 
-  $config = parse_ini_file('config.ini', true);
-  $con = mysql_connect($config[ip], $config[username], $config[password]);
-  if(!$con){
-    echo('could not connect'.mysql_error());
-  }
+  global $db;
 
-  $db_select = mysql_select_db($config[dbname], $con);
-  echo $db_select;
+  $result = $db->query("SELECT * FROM user");
+  foreach ($result as $row) {
+        echo $row["email"] ." , ". $row["fb_uid"] . "<br/>";
+    }
+
+  /*
+  $resutl = $db->query("INSERT INTO user (email, fb_uid, fb_token, fb_secret)
+      VALUES ('test@gmail.com', '5423452354', 'asdfasfasdf', 'asdfas') ");
+  var_dump($result);
+  */
 
