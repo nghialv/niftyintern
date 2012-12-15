@@ -2,7 +2,7 @@ body {
   min-width: 1000px;
   font-size: 0.75em;
   height: 100%;
-  background: url(img/background.png) #F8F8F8  repeat;
+  background: url(/img/background.png) #F8F8F8  repeat;
 }
 
 #top-site {
@@ -17,7 +17,7 @@ body {
 }
 
 .white2 {
-  background: transparent url(img/top-site-background.png) 0 0 repeat;
+  background: transparent url(/img/top-site-background.png) 0 0 repeat;
 }
 
 .top-site-frontpage {
@@ -32,7 +32,7 @@ body {
   left: 0;
   height: 7px !important;
   width: 100%;
-  background: transparent url(img/shadow-top-site-top.png) 0 0 repeat-x;
+  background: transparent url(/img/shadow-top-site-top.png) 0 0 repeat-x;
   z-index: 0;
 }
 
@@ -42,7 +42,7 @@ body {
   left: 0;
   height: 7px !important;
   width: 100%;
-  background: transparent url(img/shadow-top-site-down.png) 0 0 repeat-x;
+  background: transparent url(/img/shadow-top-site-down.png) 0 0 repeat-x;
   z-index: 0;
 }
 
@@ -120,7 +120,7 @@ body {
   clear: left;
   margin-left: 0;
   margin-top: -1px;
-  background: transparent url(img/menu-background.png) 0 0 repeat;
+  background: transparent url(/img/menu-background.png) 0 0 repeat;
   -moz-box-shadow: 0px 2px 10px #999;
   -webkit-box-shadow: 0px 2px 10px #999;
   box-shadow: 0px 2px 10px #999;
@@ -178,7 +178,7 @@ body {
   clear: left;
   margin-left: 0;
   margin-top: -1px;
-  background: transparent url(img/menu-background.png) 0 0 repeat;
+  background: transparent url(/img/menu-background.png) 0 0 repeat;
   -moz-box-shadow: 0px 2px 10px #999;
   -webkit-box-shadow: 0px 2px 10px #999;
   box-shadow: 0px 2px 10px #999;
@@ -244,6 +244,9 @@ body {
 
 #header-search {
   border-radius: 0;
+  width: 200px;
+  height: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -266,7 +269,7 @@ body {
   clear: left;
   margin-left: 0;
   margin-top: -1px;
-  background: transparent url(img/menu-background.png) 0 0 repeat;
+  background: transparent url(/img/menu-background.png) 0 0 repeat;
   -moz-box-shadow: 0px 2px 10px #999;
   -webkit-box-shadow: 0px 2px 10px #999;
   box-shadow: 0px 2px 10px #999;
